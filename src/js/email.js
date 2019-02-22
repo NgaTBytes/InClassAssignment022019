@@ -4,14 +4,14 @@ class UserAccountInput extends React.Component {
     constructor(props) {
         super(props);
 
-        constructor (props) {
+        constructor (props); {
             super(props);
             this.state = {
               email: '',
               password: ''
             }
-          }
-
+        }
+    
         this.handleEmailChange = this.handleEmailChange.bind(this);        
         this.handleEmailSubmit = this.handleEmailSubmit.bind(this);
     };
